@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Smythe', cursive;
+
+} 
+
+header{
+    box-sizing: border-box;
+    height: 170px;
+    width: 100%; 
+    background-image: url("https://images.unsplash.com/photo-1616645500344-209060c84970");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 45px;
+    margin-bottom: 30px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 24px;
+}
+
+header p{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.4216px;
+    line-height: 14px;
+}
+
+main{
+    padding: 0 45px;
+    color: black;
+}
+
+ .menuItem{
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menuItemSection{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.itemDetails{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    
+}
+
+.itemDetails h1 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 17px;
+    height: 17px;
+}
+.itemDetails p {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.ingridientsPrg{
+    color: #8B8B8B;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#addItemBtn{
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #DEDEDE;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    
+}
+
+.divider{
+    border: 1px solid #D2D2D2;
+}
+
+.itemImg{
+    width: 70px;
+    height: 89px;
+} 
+
+/* .hidden{
+    display: none;
+} */
+
+#basketTitle{
+    text-align: center;
+    margin: 0;
+}
+
+
+.orderItem{
+    display: flex;
+    align-items: center;
+}
+
+.basketEl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.basketEl div{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+    
+}
+
+.basketEl span{
+    width: 77px;
+    height: 22px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #BBBBBB;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.basketEl p{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.sumEl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sumEl div{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.sumEl p{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.orderBtn{
+    width: 100%;
+    height: 60px;
+    background: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    margin: 40px 0;
+    
+}
+
+.orderBtnDiv{
+    margin: 0 auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.modal{
+    position: absolute;
+    width: 90%;
+    border: 1.3px solid #757575;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 3.88991px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+form input{
+    margin: 20px 10px;
+    padding: 20px 10px;
+}
+
+.payBtn {
+    margin: 20px 10px;
+    padding: 20px 10px;
+    background-color: #16DB99;
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    border: none;
+    border-radius: 3.88991px;
+}
+
+.modal-title{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;  
+}
+
+#paymentSubmitted{
+    width: 100%;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    margin: 40px auto;  
+}
+
+#paymentSubmitted p{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.checkoutEl{
+    margin-top: 30px;
+}
