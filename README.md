@@ -7,15 +7,8 @@ $ npm install
 $ npm start
 ````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+Easy-to-use food ordering app, simply select the favourite items, insert your payment details and we are on the way, delivering the food for you. 
+You can always remove the item from your order and add another one.
+<img width="399" alt="Screenshot 2023-01-13 at 13 14 37" src="https://user-images.githubusercontent.com/46134711/212329476-d612e7dd-88df-45af-b586-e67ea4a8b4be.png">
+<img width="379" alt="Screenshot 2023-01-13 at 13 15 02" src="https://user-images.githubusercontent.com/46134711/212329490-5755cf12-15d7-4135-8998-950ff6d9c21d.png">
+<img width="384" alt="Screenshot 2023-01-13 at 13 15 22" src="https://user-images.githubusercontent.com/46134711/212329498-d20859cd-06d3-41fc-a0dd-37f1fb83b790.png">
